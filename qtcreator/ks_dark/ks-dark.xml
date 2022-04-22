@@ -5,6 +5,8 @@
   <style name="Selection" foreground="#b6d6ee" background="#455379" underlineColor="#000000"/>
   <style name="LineNumber" foreground="#6e717e" background="#2f343f"/>
   <style name="SearchResult" foreground="#000000" background="#3f6b49"/>
+  <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
+  <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
   <style name="SearchScope" foreground="#000000" background="#f8fafc"/>
   <style name="Parentheses" foreground="#fe706b" background="#4e4e8f" bold="true"/>
   <style name="ParenthesesMismatch" background="#433d4e"/>
@@ -18,6 +20,7 @@
   <style name="String" foreground="#d5835d" background="#282c34"/>
   <style name="Type" foreground="#dd78dd"/>
   <style name="Local"/>
+  <style name="Parameter" foreground="#babbbd"/>
   <style name="Global" foreground="#c28a8a"/>
   <style name="Field" bold="true"/>
   <style name="Static" foreground="#7596bd" bold="true"/>
@@ -56,11 +59,16 @@
   <style name="DiffSourceChar" background="#c34141"/>
   <style name="DiffDestLine" background="#277027"/>
   <style name="DiffDestChar" foreground="#d4d4d4" background="#339d33"/>
-  <style name="LogChangeLine" foreground="#dcdc00"/>
-  <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
-  <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
-  <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
-  <style name="ErrorContext" underlineColor="#ff0000" underlineStyle="DotLine"/>
+  <style name="LogChangeLine" foreground="#ffaa7f"/>
+  <style name="LogAuthorName" foreground="#8484f3"/>
+  <style name="LogCommitDate" foreground="#2c9e69"/>
+  <style name="LogCommitHash" foreground="#ce5656"/>
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#e6607d"/>
+  <style name="Warning" underlineColor="#ca9400" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#ca9400" underlineStyle="DotLine"/>
+  <style name="Error" underlineColor="#c34141" underlineStyle="SingleUnderline"/>
+  <style name="ErrorContext" underlineColor="#c34141" underlineStyle="DotLine"/>
   <style name="Declaration" bold="true"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
