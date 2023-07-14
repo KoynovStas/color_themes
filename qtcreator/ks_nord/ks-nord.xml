@@ -7,6 +7,7 @@
   <style name="SearchResult" foreground="#000000" background="#3f6b49"/>
   <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
   <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
+  <style name="SearchResultContainingFunction"/>
   <style name="SearchScope" foreground="#000000" background="#f8fafc"/>
   <style name="Parentheses" foreground="#fe706b" background="#4e4e8f" bold="true"/>
   <style name="ParenthesesMismatch" background="#433d4e"/>
@@ -19,6 +20,7 @@
   <style name="Number" foreground="#fea088"/>
   <style name="String" foreground="#d5835d" background="#262c38"/>
   <style name="Type" foreground="#dd78dd"/>
+  <style name="Namespace" foreground="#dd78dd"/>
   <style name="Local"/>
   <style name="Parameter" foreground="#babbbd"/>
   <style name="Global" foreground="#c28a8a"/>
@@ -32,7 +34,8 @@
   <style name="Overloaded Operator" foreground="#e6607d"/>
   <style name="Punctuation"/>
   <style name="Preprocessor" foreground="#409090" bold="true"/>
-  <style name="Label" foreground="#e76000"/>
+  <style name="Macro" foreground="#409090" bold="true"/>
+  <style name="Label" foreground="#d1816d" bold="true"/>
   <style name="Comment" foreground="#7a7d87"/>
   <style name="Doxygen.Comment" foreground="#637dbd"/>
   <style name="Doxygen.Tag" foreground="#4c59af" bold="true"/>
@@ -72,4 +75,15 @@
   <style name="Declaration" bold="true"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
+  <style name="CocoCodeAdded"/>
+  <style name="CocoPartiallyCovered" foreground="#d38c69"/>
+  <style name="CocoNotCovered" foreground="#e6607d"/>
+  <style name="CocoFullyCovered" foreground="#3da040"/>
+  <style name="CocoManuallyValidated" foreground="#4a94de"/>
+  <style name="CocoDeadCode" foreground="#c247db"/>
+  <style name="CocoExecutionCountTooLow" foreground="#ff6459"/>
+  <style name="CocoNotCoveredInfo" foreground="#ff9494"/>
+  <style name="CocoCoveredInfo" foreground="#55aa7f"/>
+  <style name="CocoManuallyValidatedInfo" foreground="#497ce9"/>
 </style-scheme>
