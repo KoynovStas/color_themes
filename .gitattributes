@@ -1,0 +1,27 @@
+* text=auto
+
+
+# Linux Scripts
+*.sh   text eol=lf
+*.bash text eol=lf
+
+
+# Windows Scripts
+*.bat text eol=crlf
+*.reg text eol=crlf
+
+
+# Binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.bmp binary
+*.gif binary
+*.pdf binary
+*.doc binary
+*.zip binary
+*.7z  binary
+*.rar binary
+*.tar binary
+*.bz2 binary
+*.xz  binary
