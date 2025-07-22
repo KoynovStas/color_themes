@@ -18,3 +18,10 @@ The theme consists of two parts:
  - Move the `*.creatortheme` file to `qtcreator_dir/share/qtcreator/themes/`
  - Move the `*.xml` file to `qtcreator_dir/share/qtcreator/styles/`
  - Go to `Qt Creator`->`Preferences...`, and select the Color theme
+
+
+## Version
+
+ - `*` - for QtCreator ver-5+
+ - `*_15+` - for QtCreator ver-15+
+ 
