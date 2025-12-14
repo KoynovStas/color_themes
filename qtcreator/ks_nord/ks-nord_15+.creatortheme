@@ -2,7 +2,8 @@
 ThemeName=KS Nord
 PreferredStyles=Fusion
 DefaultTextEditorColorScheme=ks-nord.xml
-DefaultToolbarStyle=Relaxed
+DefaultToolbarStyle=Compact
+
 
 
 [Palette]
@@ -34,22 +35,23 @@ backgroundColorDisabled=ff444444
 Token_Basic_Black=ff181818
 Token_Basic_White=text
 
-Token_Accent_Default=normalBackground
-Token_Accent_Muted=ff50545d
+Token_Accent_Default=ff50545d
+Token_Accent_Muted=ff109a5b
 Token_Accent_Subtle=ff999999
 
 Token_Background_Default=normalBackground
 Token_Background_Muted=shadowBackground
 Token_Background_Subtle=ff3a404e
 
-Token_Foreground_Default=normalBackground
+Token_Foreground_Default=alternateBackground
 Token_Foreground_Muted=ff50545d
-Token_Foreground_Subtle=shadowBackground
+Token_Foreground_Subtle=Token_Background_Subtle
 
 Token_Text_Default=text
 Token_Text_Muted=ffAEAEAE
 Token_Text_Subtle=ff818181
 Token_Text_Accent=ff85bd8d
+Token_Text_On_Accent=ffE3E3E3
 
 Token_Stroke_Strong=ffE3E3E3
 Token_Stroke_Muted=ff909090
